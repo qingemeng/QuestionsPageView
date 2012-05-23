@@ -19,6 +19,15 @@
 @implementation QuestionsRootViewController
 
 @synthesize pageViewController = _pageViewController;
+@synthesize lbl_gradeSem = _lbl_gradeSem;
+@synthesize lbl_version = _lbl_version;
+@synthesize lbl_recommendationTime = _lbl_recommendationTime;
+@synthesize lbl_questionSet = _lbl_questionSet;
+@synthesize lbl_user = _lbl_user;
+@synthesize lbl_timerMin = _lbl_timerMin;
+@synthesize lbl_timerSec = _lbl_timerSec;
+@synthesize btn_start = _btn_start;
+@synthesize btn_submit = _btn_submit;
 @synthesize modelController = _modelController;
 
 - (void)viewDidLoad
@@ -40,7 +49,7 @@
 
     // Set the page view controller's bounds using an inset rect so that self's view is visible around the edges of the pages.
     CGRect pageViewRect = self.view.bounds;
-    pageViewRect = CGRectInset(pageViewRect, 40.0, 40.0);
+    pageViewRect = CGRectInset(pageViewRect, 40.0, 80.0);
     self.pageViewController.view.frame = pageViewRect;
 
     [self.pageViewController didMoveToParentViewController:self];
@@ -51,6 +60,15 @@
 
 - (void)viewDidUnload
 {
+    [self setLbl_gradeSem:nil];
+    [self setLbl_version:nil];
+    [self setLbl_recommendationTime:nil];
+    [self setLbl_questionSet:nil];
+    [self setLbl_user:nil];
+    [self setLbl_timerMin:nil];
+    [self setLbl_timerSec:nil];
+    [self setBtn_start:nil];
+    [self setBtn_submit:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

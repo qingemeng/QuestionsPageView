@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QuestionsDataViewController : UIViewController
+@interface QuestionsDataViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
+    NSMutableArray * questions;
+}
+- (void)loadQuestions;
+
 
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
+
 
 @end

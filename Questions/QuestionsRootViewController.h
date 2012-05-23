@@ -11,5 +11,14 @@
 @interface QuestionsRootViewController : UIViewController <UIPageViewControllerDelegate>
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_gradeSem;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_version;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_recommendationTime;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_questionSet;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_user;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_timerMin;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_timerSec;
+@property (strong, nonatomic) IBOutlet UIButton *btn_start;
+@property (strong, nonatomic) IBOutlet UIButton *btn_submit;
 
 @end

@@ -20,7 +20,7 @@
  */
 
 @interface QuestionsModelController()
-@property (readonly, strong, nonatomic) NSArray *pageData;
+@property (strong, nonatomic) NSMutableArray *pageData;
 @end
 
 @implementation QuestionsModelController
@@ -32,8 +32,18 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+        NSMutableArray *pages = [[NSMutableArray alloc] init];
+        [pages addObject:@"Page1"];
+        [pages addObject:@"Page2"];
+        [pages addObject:@"Page3"];
+        [pages addObject:@"Page4"];
+
+        _pageData = pages;
+        //[self.pageData arrayByAddingObject:@"Page1"];
+        //[pageData arrayByAddingObject:@"Page2"];
+        //[pageData arrayByAddingObject:@"Page3"];
+        NSLog(@"page data content %@", _pageData);
+        NSLog(@"no of pages %d",[self.pageData count]);
     }
     return self;
 }
@@ -84,5 +94,7 @@
     }
     return [self viewControllerAtIndex:index storyboard:viewController.storyboard];
 }
+
+
 
 @end

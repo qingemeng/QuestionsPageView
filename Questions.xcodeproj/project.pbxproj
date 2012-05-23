@@ -24,17 +24,17 @@
 		216B7606156B86D3002865E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		216B7608156B86D3002865E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		216B760A156B86D3002865E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		216B760E156B86D3002865E4 /* Questions-Info.plist */ = {isa = PBXFileReference; path = "Questions-Info.plist"; sourceTree = "<group>"; };
+		216B760E156B86D3002865E4 /* Questions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Questions-Info.plist"; sourceTree = "<group>"; };
 		216B7610156B86D3002865E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		216B7612156B86D3002865E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		216B7614156B86D3002865E4 /* Questions-Prefix.pch */ = {isa = PBXFileReference; path = "Questions-Prefix.pch"; sourceTree = "<group>"; };
-		216B7615156B86D3002865E4 /* QuestionsAppDelegate.h */ = {isa = PBXFileReference; path = QuestionsAppDelegate.h; sourceTree = "<group>"; };
+		216B7614156B86D3002865E4 /* Questions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Questions-Prefix.pch"; sourceTree = "<group>"; };
+		216B7615156B86D3002865E4 /* QuestionsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionsAppDelegate.h; sourceTree = "<group>"; };
 		216B7616156B86D3002865E4 /* QuestionsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionsAppDelegate.m; sourceTree = "<group>"; };
-		216B7618156B86D3002865E4 /* QuestionsRootViewController.h */ = {isa = PBXFileReference; path = QuestionsRootViewController.h; sourceTree = "<group>"; };
+		216B7618156B86D3002865E4 /* QuestionsRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionsRootViewController.h; sourceTree = "<group>"; };
 		216B7619156B86D3002865E4 /* QuestionsRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionsRootViewController.m; sourceTree = "<group>"; };
-		216B761B156B86D3002865E4 /* QuestionsDataViewController.h */ = {isa = PBXFileReference; path = QuestionsDataViewController.h; sourceTree = "<group>"; };
+		216B761B156B86D3002865E4 /* QuestionsDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionsDataViewController.h; sourceTree = "<group>"; };
 		216B761C156B86D3002865E4 /* QuestionsDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionsDataViewController.m; sourceTree = "<group>"; };
-		216B761E156B86D3002865E4 /* QuestionsModelController.h */ = {isa = PBXFileReference; path = QuestionsModelController.h; sourceTree = "<group>"; };
+		216B761E156B86D3002865E4 /* QuestionsModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionsModelController.h; sourceTree = "<group>"; };
 		216B761F156B86D3002865E4 /* QuestionsModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionsModelController.m; sourceTree = "<group>"; };
 		216B7622156B86D3002865E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
